@@ -9,7 +9,10 @@ const [contador, setContador] = useState(0)
 useEffect(() => {
    
 },[])
-
+/**UselayoutEffect es llamado en un momento previo al rendereado de la pagina 
+ * o carga de la pagina es por eso que a pesar de ser casi iguales 
+ * el layoutEffect se muestra antes que useEffect
+ */
 useLayoutEffect(() => {
  
 }, [])

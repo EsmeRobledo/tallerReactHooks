@@ -9,6 +9,8 @@ function reducer(state, action){
             return {contador: state.contador, muestraTxt: !state.muestraTxt}   
     }
 }
+ // en este caso estamos tomando dos operaciones dentro de un boton donde
+    //estamos modificando 2 estados.
 
     // const [contador, setContador] = useState(0);
     // const [muestraTxt, setMuestraTxt] = useState(false);
